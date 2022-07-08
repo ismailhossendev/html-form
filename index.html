@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form </title>
+</head>
+<body>
+    <style>
+        form{
+            width: 500px;
+            
+        }
+    </style>
+    <form action="">
+        <fieldset>
+            <legend >Personal Details</legend>
+                <p>Name: <input type="name" placeholder="Ener Your Name" required ></p>
+                <p>Email: <input type="email" placeholder="Ener Your Email"></p>
+                <p>Address: <input type="address" placeholder="Enter Your Adress"></p>  
+                <p>Mobile Number: <input type="text" placeholder="Enter Mobile Number"></p>   
+        </fieldset>
+        <fieldset>
+            <legend>Select Your Service</legend>
+            </p><input type="radio" name="mern" id="Web-dev-mern">
+            <label for="Web-dev-mern">Web Devlopment Using MERN</label>
+            <input type="radio" name="wp" id="Web-dev-wp">
+            <label for="Web-dev-wp">Web Devlopment Using Wordpress</label></p>
+
+
+            <input type="radio" name="" id="ui-ux">
+            <label for="ui-ux">UI/UX Design</label>
+            <input type="radio" name="" id="vide-edit">
+            <label for="vide-edit">Video Editing</label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Select Your Payment Metod</legend>
+            <p><input type="checkbox" id="bkash">
+                <label for="bkash">Bkash(Online)</label>
+                <input type="checkbox" id="bkash-m">
+                <label for="bkash-m">Bkash(Manual)</label>
+            </p>
+            <p><input type="checkbox" id="nagad">
+                <label for="nagad">Nagad(Online)</label>
+                <input type="checkbox" id="nagad-m">
+                <label for="nagad-m">Bkash(Manual)</label>
+            </p>
+           <input type="checkbox" id="ssl">
+                <label for="ssl">Card,visa,master card,bank(SSLCommerz)</label>  
+            </p>
+        </fieldset>
+        <input type="checkbox" id="tc">
+        <label for="tc"> Agree With <a href="#">Terms & Conditions</a> </label><br> 
+        <button type="submit">SUBMIT</button> <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
